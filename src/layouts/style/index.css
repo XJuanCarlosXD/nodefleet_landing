@@ -131,7 +131,6 @@
   color: #2a274b;
   background-color: #b4eec7;
   padding: 10px;
-  font-size: 80px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
@@ -139,7 +138,6 @@
     width: calc(100% - 55%);
     padding: 8px;
     display: flex;
-    font-size: 30px;
     flex-direction: column;
     margin-bottom: 30px;
   }
