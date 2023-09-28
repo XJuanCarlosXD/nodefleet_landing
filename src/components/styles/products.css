@@ -1,0 +1,127 @@
+.Product {
+  padding: 1rem 3rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  top: 28rem;
+  @media screen and (max-width: 768px) {
+    gap: 30px;
+    padding: 1rem 20px 20px 20px;
+  }
+}
+
+.TitleP {
+  background: #82dcff;
+  color: #2a274b;
+  padding: 10px;
+
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    font-size: 30px;
+  }
+}
+
+.contenCard {
+  padding: 0 0 0 14rem;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+}
+
+.Content-Card {
+  display: flex;
+  align-items: center;
+  gap: 143px;
+  margin-bottom: 1.5rem;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin-bottom: 4rem;
+    gap: 2rem;
+  }
+}
+.Content-Card:nth-child(2) {
+  gap: 148px;
+  @media screen and (max-width: 768px) {
+    gap: 2rem;
+  }
+}
+
+.Cards {
+  display: flex;
+  width: 500px;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: rgba(245, 245, 245, 0.98);
+
+  @media screen and (max-width: 768px) {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Content-Card img {
+    width: 80px;
+  }
+}
+
+.TitleCar {
+  color: #2a274b;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 768px) {
+    font-size: 26px;
+  }
+}
+
+.SubtexCard {
+  color: #2a274b;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136%; /* 31.28px */
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.ButtonLink {
+  color: #2a274b;
+  border-radius: 8px;
+  background: #82dcff;
+  text-align: center;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  text-decoration: none;
+  display: flex;
+  padding: 18px 30px 20px 30px;
+  justify-content: center;
+  align-items: flex-start;
+  @media screen and (max-width: 768px) {
+    padding: 5px;
+    align-items: center;
+    font-size: 19px;
+  }
+}
+
+.box-card {
+  background-color: #99dfaf;
+  margin: 0;
+}

@@ -1,0 +1,135 @@
+.content-footer {
+  position: relative;
+  top: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.CardFooter {
+  display: flex;
+  width: 750px;
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background: #a6b4fc;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 30%);
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+  }
+}
+
+.TitleFo {
+  color: #292930;
+
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.Form-Control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Form-Control label {
+  color: #292930;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 10px 0 10px 0;
+}
+
+.Form-Control input,
+.Form-Control textarea {
+  display: flex;
+  width: 700px;
+  padding: 15px;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 10px;
+  border: 1px solid #9b9b9b;
+  background: #fff;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.btnSubmit {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 2rem;
+  @media screen and (max-width: 768px) {
+    margin-top: 0.5rem;
+  }
+}
+
+.btnSubmit button {
+  border-radius: 8px;
+  background: #584ec7;
+  padding: 16px 55px 16px 55px;
+
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  @media screen and (max-width: 768px) {
+    padding: 8px;
+    line-height: inherit;
+  }
+}
+
+.CardEFo {
+  margin: 2rem 0 2rem 0;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .CardEFo img {
+    width: 100%;
+  }
+}
+
+.TextFppter {
+  margin-top: 2rem;
+  color: #fff;
+  text-align: center;
+
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.FooterTexty {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+  }
+}

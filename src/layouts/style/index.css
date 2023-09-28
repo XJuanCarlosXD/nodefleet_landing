@@ -1,0 +1,217 @@
+.Content-Nav {
+  display: flex;
+  height: 66px;
+  padding: 5px 25px;
+  align-items: center;
+  gap: 22px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(28, 27, 44, 0.9) 50.44%,
+    rgba(35, 33, 69, 0.9) 64.34%,
+    rgba(49, 23, 102, 0.5) 113.14%
+  );
+  position: fixed;
+  width: calc(100% - 10%);
+  top: 1rem;
+  z-index: 999;
+  @media screen and (max-width: 768px) {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+  }
+}
+
+.p-2 {
+  padding: 1rem 3rem 0 3rem;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+  }
+}
+
+.List {
+  display: flex;
+  width: 1081px;
+  padding: 0px 24px 0px 271.2px;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  gap: 0px 48.01px;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.List a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.List-Mobile {
+  position: relative;
+  width: calc(100% - 55%);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.List-Mobile i {
+  font-size: 26px;
+}
+
+.List-Mobile a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .List-Mobile {
+    display: none;
+  }
+}
+
+.List-Mobile ul {
+  position: absolute;
+  margin-top: 3rem;
+  right: -1.5rem;
+  list-style: none;
+  background: rgba(28, 27, 44, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  scale: 0;
+  top: -10rem;
+  transition: 0.2s ease-in-out;
+}
+
+.List-Mobile:hover ul {
+  scale: 1;
+  top: inherit;
+  transition: 0.2s ease-in;
+}
+
+.List-Mobile ul li {
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  margin: 10px;
+}
+
+.List li:hover {
+  border-bottom: 2px solid #fff;
+  font-weight: 600;
+}
+
+.TextInit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  position: relative;
+  top: 8rem;
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    line-height: 0;
+  }
+}
+
+.TextInit p span {
+  color: #2a274b;
+  background-color: #b4eec7;
+  padding: 10px;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 55%);
+    font-size: 28px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+.SubtextInit {
+  margin-top: 7rem;
+  color: var(--bw-white, #fff);
+  font-size: 33px;
+  font-style: normal;
+  line-height: normal;
+  @media screen and (max-width: 768px) {
+    margin-top: 8rem;
+    font-size: 20px;
+  }
+}
+
+.Content-Nave {
+  position: absolute;
+  top: 20rem;
+  right: 0;
+  @media screen and (max-width: 768px) {
+    top: 0;
+    z-index: -99;
+  }
+}
+
+.TitleInit {
+  display: flex;
+  width: 312px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #a6b4fc;
+  color: #2a274b;
+
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2rem;
+  @media screen and (max-width: 768px) {
+    padding: 5px;
+    font-size: 30px;
+    width: 60%;
+  }
+}
+
+.about-us {
+  position: relative;
+  top: 20rem;
+}
+
+.SubTextAb {
+  width: 719px;
+  color: #fff;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 156.522% */
+  margin-bottom: 1rem;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.SubTextAb img {
+  width: 7rem;
+  @media screen and (max-width: 768px) {
+    width: 5rem;
+  }
+}
