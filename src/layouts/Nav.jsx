@@ -25,8 +25,11 @@ const Nav = props => {
                 </div>
             </div>
             <span className='TextInit'>
-                Stake nodes with <br /> <p><span>impressive</span> performance</p>
-            </span>
+                Stake nodes with <br />
+                <div>
+                    <p><span>impressive</span> performance</p>
+                </div>
+            </span>x
             <p className='SubtextInit'>
                 <b>Handcrafted Infra</b> | Permanent <b>Research</b> | Permanent <b>Development</b>.
             </p>
