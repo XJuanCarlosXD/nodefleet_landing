@@ -127,7 +127,7 @@
   }
 }
 
-.TextInit p span {
+.TextInit span {
   color: #2a274b;
   background-color: #b4eec7;
   padding: 10px;
@@ -137,9 +137,9 @@
   line-height: 20px;
   @media screen and (max-width: 768px) {
     width: calc(100% - 55%);
-    font-size: 28px;
     padding: 8px;
     display: flex;
+    font-size: 30px;
     flex-direction: column;
     margin-bottom: 30px;
   }
