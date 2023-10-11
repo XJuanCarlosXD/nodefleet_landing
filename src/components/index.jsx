@@ -3,6 +3,7 @@ import Nav from "../layouts/Nav";
 import Services from "./Services";
 import Products from "./Products";
 import Footer from "./Footer";
+import Fleet from "./Fleet";
 
 const Index = (props) => {
   return (
@@ -10,6 +11,7 @@ const Index = (props) => {
       <Nav />
       <Services />
       <Products />
+      <Fleet />
       <Footer />
     </div>
   );
